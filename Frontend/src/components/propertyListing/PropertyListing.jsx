@@ -8,7 +8,7 @@ import PropertMapInfo from "./PropertyMapInfo";
 import { useParams } from "react-router-dom";
 import LoadingSpinner from "../LoadingSpinner";
 
-import { getPropertyDetails } from "../../store/PropertyDetails/propertyDetails-Action";
+import { getPropertyDetails } from "../../store/PropertyDetails/propertyDetails-action";
 import {useDispatch,useSelector} from "react-redux"
 
 const PropertyListing = () => {
